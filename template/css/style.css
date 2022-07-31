@@ -1,0 +1,315 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+@media  screen and (max-width:400px) {
+  .theBoss{
+    font-size: 20px;
+    width: 30%;
+    height: 10%;
+  }
+}
+
+#startHere{
+  list-style: none;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+a{
+  color: black;
+}
+
+#theirName{
+  font-family: 'Allura', sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-right: 40%;
+  color: rgb(148, 143, 143);
+}
+
+#pressMe{
+  background-color: rgb(116, 138, 138, .8);
+}
+
+#focusFirst{
+  background: url("https://res.cloudinary.com/doepoiym4/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency//v1659225067/victoria-priessnitz-UzehbggEadE-unsplash_nsxnpn.jpg") no-repeat;
+  background-image: 100% auto;
+  opacity: .6;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+#midFocus{
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+#firstLine{
+  margin-top: 15%;
+  font-size: 3em;
+}
+
+#secondLine{
+  font-family: 'Allura', Arial, Helvetica, sans-serif;
+  font-size: 6em;
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  
+}
+
+#thirdLine{
+  font-size: 3em;
+}
+
+#ourBack{
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.inTime{
+  margin-right: 10%;
+  font-size: 15px;
+
+}
+
+.sinceWhen{
+  margin-left: 20%;
+  font-size: 15px;
+}
+
+#theirReview{
+  background: url("https://res.cloudinary.com/doepoiym4/image/upload/v1659234232/jonathan-borba-JiaYVFD3isE-unsplash_bowzzv.jpg") no-repeat;
+  background-image: 100% auto;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+  position: relative;
+  margin-top: 5%;
+}
+
+.newlyWed{
+  color: white;
+  font-size: 2em;
+  font-family: 'Tangerine', Arial, Helvetica, sans-serif;
+  margin-left: 10%; 
+}
+
+.inTheirWords{
+  color: white;
+  font-size: 3em;
+  opacity: .8;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+}
+h5{
+  color: white;
+  font-size: 2em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+
+.weAre{
+  text-align: center;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.thePromise{
+  text-align: center;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+#somePics{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.downIsle{
+  width: 20%;
+  height: 20%;
+  margin-left: 1%;
+  margin-right: 1%;
+  
+}
+
+.sitPose{
+  width: 20%;
+  height: 60%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 5%;
+  
+}
+
+.twoWomen{
+  width: 20%;
+  height: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 17%;
+  
+}
+
+.inHerDress{
+  width: 20%;
+  height: 20%;
+  margin-left: 1%;
+  margin-right: 1%;
+  
+}
+
+.theBoss{
+  background: url(https://res.cloudinary.com/doepoiym4/image/upload/v1659271748/tim-mossholder-nZ2ckk2-FNA-unsplash_soxw7t.jpg) no-repeat;
+  background-image: 100% auto;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+
+.whoSheIs{
+  background: rgb(113, 111, 111, .3);
+  border: rgb(133,132, 132,);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 45%;
+}
+
+.bossPic{
+  color: rgb(146, 143, 143);
+  font-family: 'Tangerine', Arial, Helvetica, sans-serif;
+  font-size: 4em;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 40%;
+  margin-right: 10%;
+}
+
+
+
+
+.herStory{
+  color: rgb(44, 44, 48);
+  font-size: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 25%;
+  margin-right: 8%;
+  margin-bottom: 4%;
+ 
+}
+
+.whereToFollow{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#atMe{
+  background-color: grey, .2;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-left: 45%;
+}
+
+.beSocial{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.wedPicturesOne{
+  
+  width: 15%;
+  height: 286px;
+  margin-left: 2%;
+  margin-right: 1%;
+}
+
+.wedPictures{
+  margin-top: 5%;
+  width: 15%;
+  height: 10%;
+  margin-left: 2%;
+  margin-right: 1%;
+}
+
+.allWelcome{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.facebook{
+  background: #3b5998;
+        color: white;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
